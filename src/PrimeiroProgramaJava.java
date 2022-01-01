@@ -8,6 +8,8 @@ public class PrimeiroProgramaJava {
 
         Gato gato = new Gato();
         System.out.println(gato);
+            Livro livro  = new Livro();
+        System.out.println(livro);
 
     }
 
@@ -20,6 +22,10 @@ public class PrimeiroProgramaJava {
       public Livro(String nome, Integer numeroPaginas) {
           this.nome = nome;
           this.numeroPaginas = numeroPaginas;
+      }
+
+      public Livro() {
+          
       }
 
       public String getNome() {
